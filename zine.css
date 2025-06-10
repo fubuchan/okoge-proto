@@ -1,13 +1,13 @@
 #poem {
   top: 16%;
-  left: 12%;
+  right: 12%;
   width: 30%;
   line-height: 1.6;
 }
 
 #failure {
   bottom: 20%;
-  left: 12%;
+  right: 12%;
   font-size: 1.2em;
 }
 
