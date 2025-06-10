@@ -10,13 +10,13 @@
 
 #poem {
   top: 16%;
-  left: 6%;
+  right: 6%;
   width: 36%;
 }
 
 #failure {
   bottom: 10%;
-  left: 6%;
+  right: 6%;
 }
 
 #fire {
