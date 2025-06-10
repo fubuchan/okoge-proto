@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("poem").textContent = data.poem || "";
         document.getElementById("failure").textContent = (data.failure || "") + "時のおこげ";
         document.getElementById("fire").textContent = data.fire || "";
+
         console.log("✅ DOMに反映完了");
       } else {
         console.warn("⚠️ 未処理のtype:", data.type);
