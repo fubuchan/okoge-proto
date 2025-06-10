@@ -1,18 +1,19 @@
 #poem {
-  top: 16%;
-  right: 12%;
-  width: 30%;
-  line-height: 1.6;
+  top: 18%;
+  left: 5%;
+  width: 35%;
+  line-height: 1.8;
+  font-size: 1.6em;
 }
 
 #failure {
-  bottom: 20%;
-  right: 12%;
-  font-size: 1.2em;
+  bottom: 10%;
+  left: 5%;
+  font-size: 1.4em;
 }
 
 #fire {
   top: 8%;
-  right: 12%;
-  font-size: 1.4em;
+  right: 5%;
+  font-size: 1.6em;
 }
