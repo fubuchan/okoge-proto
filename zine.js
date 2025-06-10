@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("fire").textContent = data.fire || "";
 
         console.log("✅ DOMに反映完了");
-      } else {
+       else {
         console.warn("⚠️ 未処理のtype:", data.type);
       }
 
