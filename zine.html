@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>わたしのおこげ ZINE</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    #pdf-container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+    #pdf-frame {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .overlay-text {
+      position: absolute;
+      font-family: sans-serif;
+      white-space: pre-wrap;
+      color: #5c2f0d;
+      font-size: 1.4em;
+      pointer-events: none;
+    }
+    #poem {
+      top: 20%;
+      left: 10%;
+    }
+    #failure {
+      bottom: 20%;
+      left: 10%;
+    }
+    #fire {
+      top: 10%;
+      right: 10%;
+    }
+  </style>
+</head>
+<body>
+  <div id="pdf-container">
+    <iframe id="pdf-frame" src="https://cdn.glitch.global/bd696938-7393-4e36-96a6-f3cc5cfca0b1/ikaga.svg?v=1749488605212"></iframe>
+
+    <div id="poem" class="overlay-text" style="top: 20%; left: 10%;"></div>
+    <div id="failure" class="overlay-text" style="bottom: 20%; left: 10%;"></div>
+    <div id="fire" class="overlay-text" style="top: 10%; right: 10%;"></div>
+  </div>
+</body>
+</html>
