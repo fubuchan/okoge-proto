@@ -3,56 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>わたしのおこげ ZINE</title>
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    #pdf-container {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-    }
-    #pdf-frame {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-    .overlay-text {
-      position: absolute;
-      font-family: sans-serif;
-      white-space: pre-wrap;
-      color: #5c2f0d;
-      font-size: 1.4em;
-      pointer-events: none;
-    }
-    #poem {
-      top: 20%;
-      left: 10%;
-    }
-    #failure {
-      bottom: 20%;
-      left: 10%;
-    }
-    #fire {
-      top: 10%;
-      right: 10%;
-    }
-  </style>
+
+  <!-- Googleフォントを読み込む -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+
+  <!-- 外部CSSファイルを読み込む -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="pdf-container">
     <iframe id="pdf-frame" src="ikaga.svg" type="image/svg+xml" sandbox="allow-same-origin"></iframe>
+
+    <!-- テキストはCSSでスタイルされます -->
     <div id="poem" class="overlay-text"></div>
     <div id="failure" class="overlay-text"></div>
     <div id="fire" class="overlay-text"></div>
-
-
   </div>
 
-  <!-- ★ JavaScriptはここで読み込む -->
+  <!-- JavaScriptの読み込み -->
   <script src="zine.js"></script>
 </body>
-
 </html>
