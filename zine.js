@@ -10,7 +10,6 @@ socket.onmessage = (event) => {
     console.log("📥 データ受信:", data);
 
     if (data.type === "zine_overlay") {
-      // DOM に反映
       document.getElementById("poem").textContent = data.message || "";
       document.getElementById("failure").textContent = (data.failure || "") + "時のおこげ";
       document.getElementById("fire").textContent = data.fireLevel || "";
