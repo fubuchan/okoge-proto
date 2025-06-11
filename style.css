@@ -9,18 +9,17 @@
 }
 
 #poem {
-  top: 16%;
+  bottom: 16%;
   right: 6%;
   width: 36%;
 }
 
 #failure {
-  bottom: 10%;
+  bottom: 16%;
   right: 6%;
 }
 
 #fire {
-  top: 8%;
+  top: 45%;
   right: 5%;
-  writing-mode: vertical-rl;
 }
