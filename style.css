@@ -3,22 +3,22 @@
   font-family: 'Kiwi Maru', serif;
   white-space: pre-wrap;
   color: #000000;
-  font-size: 0.7em;
+  font-size: 0.5em;
   line-height: 1.8;
   pointer-events: none;
 }
 
 #poem {
   bottom: 28%;
-  right: 25%;
+  right: 23%;
 }
 
 #failure {
-  bottom: 33%;
+  bottom: 36%;
   right: 44%;
 }
 
 #fire {
-  top: 52%;
+  top: 48%;
   right: 28%;
 }
